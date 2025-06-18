@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPPCL-like Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/100x50?text=UPPCL+Logo" alt="UPPCL Logo">
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Consumer Services</a></li>
+                    <li><a href="#">Bill Payment</a></li>
+                    <li><a href="#">New Connection</a></li>
+                    <li><a href="#">CSC Login</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <section class="hero-section">
+            <h1>Welcome to Uttar Pradesh Power Services Portal</h1>
+            <p>Your reliable partner for electricity Bill Payments And Services.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn primary-btn">Pay Bill Online</a>
+                <a href="#" class="btn secondary-btn">Register Complaint</a>
+            </div>
+        </section>
+
+        <section class="quick-links-section">
+            <h2>Quick Links</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Bill Payment</h3>
+                    <p>Pay your electricity bills quickly and securely.</p>
+                    <a href="#" class="btn card-btn">Pay Now</a>
+                </div>
+                <div class="card">
+                    <h3>New Connection</h3>
+                    <p>Apply for a new electricity connection.</p>
+                    <a href="#" class="btn card-btn">Apply Online</a>
+                </div>
+                <div class="card">
+                    <h3>Complaint Status</h3>
+                    <p>Track the status of your registered complaints.</p>
+                    <a href="#" class="btn card-btn">Track Here</a>
+                </div>
+                <div class="card">
+                    <h3>Tariff Information</h3>
+                    <p>View the latest electricity tariff rates.</p>
+                    <a href="#" class="btn card-btn">View Tariffs</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-updates-section">
+            <h2>News & Updates</h2>
+            <div class="news-list">
+                <div class="news-item">
+                    <h4>Scheduled Supply Outage Information - 18.06.2025</h4>
+                    <p>Please check for planned power interruptions in your area.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="news-item">
+                    <h4>Guidelines for Bill Submission Date by Vendors</h4>
+                    <p>Important update for vendors regarding bill submission.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="news-item">
+                    <h4>New Scheme for Farmers: Krishi Vidyut Bill Mafi Yojana</h4>
+                    <p>Learn about the new electricity bill waiver scheme for farmers.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>2025 Bindrainfo. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Disclaimer</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            hamburger.classList.toggle('toggle');
+        });
+    </script>
+</body>
+</html>
